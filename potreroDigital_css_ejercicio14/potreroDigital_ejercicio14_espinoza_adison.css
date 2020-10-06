@@ -1,0 +1,41 @@
+body {
+    background-color: aqua;
+}
+
+.division {
+    display: block;
+    color: yellow;
+    font-size: 20px;
+    background-color: green;
+    width: 20vw;
+    height: 100px;
+    border: solid 4px red;
+    margin: 0;
+    padding: 0 9px 0 0;
+}
+
+@media (min-width: 768px) {
+    .division {
+        background-color: blue;
+        width: 20vw;
+        height: 100px;
+        border: solid 4px red;
+        margin: 10px 9px;
+        padding: 9px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .division {
+        background-color: red;
+        width: 300px;
+        height: 200px;
+        border: solid 5px black;
+        -webkit-border-radius: solid 5px black;
+        -moz-border-radius: solid 5px black;
+        -ms-border-radius: solid 5px black;
+        -o-border-radius: solid 5px black;
+        padding: 0;
+        margin: 4px 3px 4px 3px;
+    }
+}
