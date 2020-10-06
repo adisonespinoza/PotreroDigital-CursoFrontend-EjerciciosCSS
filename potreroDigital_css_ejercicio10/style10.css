@@ -1,0 +1,117 @@
+                    body {
+                        background-color: rgb(236, 236, 236);
+                    }
+                    
+                    .contenedor {
+                        max-width: 95%;
+                        margin: 0 auto;
+                    }
+                    
+                    .clearfix {
+                        overflow: auto;
+                        clear: both;
+                    }
+                    
+                    h1 {
+                        font-size: 50px;
+                        text-transform: uppercase;
+                    }
+                    
+                    h2 {
+                        font-size: 30px;
+                    }
+                    
+                    p {
+                        font-size: 20px;
+                        text-align: justify;
+                    }
+                    
+                    h3 {
+                        font-size: 25px;
+                    }
+                    
+                    .seccion1 h1 {
+                        text-align: center;
+                    }
+                    
+                    .seccion1 img {
+                        width: 45%;
+                        float: left;
+                    }
+                    
+                    .seccion11 h1 {
+                        text-align: center;
+                    }
+                    
+                    .seccion11 img {
+                        width: 45%;
+                        float: right;
+                    }
+                    
+                    img {
+                        transition: 1s ease-in-out;
+                        -webkit-transition: 1s ease-in-out;
+                        -moz-transition: 1s ease-in-out;
+                        -ms-transition: 1s ease-in-out;
+                        -o-transition: 1s ease-in-out;
+                    }
+                    
+                    img:hover {
+                        transform: scale(1.1);
+                        -webkit-transform: scale(1.1);
+                        -moz-transform: scale(1.1);
+                        -ms-transform: scale(1.1);
+                        -o-transform: scale(1.1);
+                    }
+                    
+                    .parrafo-listas {
+                        margin-left: 5px;
+                        float: right;
+                        width: 50%;
+                        margin: 0;
+                        padding-bottom: 40px;
+                        padding-top: 40px;
+                    }
+                    
+                    .parrafo-listas p,
+                    li {
+                        margin-top: 0;
+                        line-height: 1.4;
+                    }
+                    
+                    .parrafo-listas11 {
+                        margin-right: 5px;
+                        float: left;
+                        width: 50%;
+                        margin: 0;
+                        padding-bottom: 40px;
+                        padding-top: 40px;
+                    }
+                    
+                    .parrafo-listas11 p,
+                    li {
+                        margin-top: 0;
+                        line-height: 1.4;
+                    }
+                    
+                    ul {
+                        list-style: none;
+                    }
+                    
+                    a {
+                        color: blue;
+                        font-weight: 900;
+                        font-size: 20px;
+                        text-decoration: none;
+                    }
+                    
+                    a:hover {
+                        color: rgb(243, 14, 72);
+                        font-weight: bold;
+                        background-color: aqua;
+                        padding: 5px;
+                    }
+                    
+                    img:hover {
+                        cursor: pointer;
+                    }
