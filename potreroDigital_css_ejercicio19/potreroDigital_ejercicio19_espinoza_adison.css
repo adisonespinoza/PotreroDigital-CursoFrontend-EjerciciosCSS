@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(196, 252, 225);
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.column2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+img {
+    width: 95%;
+    height: 600px;
+}
+
+.img {
+    margin-top: 20px;
+}
+
+.p p {
+    font-size: 20px;
+    line-height: 2;
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: rgb(255, 0, 140);
+}
+
+.p h1 {
+    text-align: center;
+    color: brown;
+}
+
+.div2 {
+    font-size: 20px;
+    line-height: 2;
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+span {
+    font-size: 50px;
+    color: rebeccapurple;
+}
