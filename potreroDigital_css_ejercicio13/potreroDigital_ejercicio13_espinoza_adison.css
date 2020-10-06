@@ -1,0 +1,53 @@
+body {
+    background-color: antiquewhite;
+}
+
+section .t1-3 {
+    color: red;
+    background-color: blue;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+}
+
+section .t2-4 {
+    color: green;
+    background-color: yellow;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+}
+
+section .p1-3 {
+    font-size: 16px;
+}
+
+section .italica {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rebeccapurple;
+    padding: 20px;
+    margin: 0;
+}
+
+section .helvetica {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+img {
+    transition: 1s all ease-in-out;
+    -webkit-transition: 1s all ease-in-out;
+    -moz-transition: 1s all ease-in-out;
+    -ms-transition: 1s all ease-in-out;
+    -o-transition: 1s all ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.5);
+}
